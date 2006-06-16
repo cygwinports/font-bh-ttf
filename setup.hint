@@ -1,0 +1,4 @@
+category: X11
+requires: mkfontdir mkfontscale fontconfig xorg-encodings
+sdesc: "Xorg Bigelow & Holmes TrueType fonts"
+ldesc: "Xorg Bigelow & Holmes TrueType fonts"

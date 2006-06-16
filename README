@@ -1,0 +1,63 @@
+xorg-font-bh-ttf
+------------------------------------------
+Xorg Bigelow & Holmes TrueType fonts
+
+Build requirements:
+  cygwin-1.5.19-4
+  cygport-0.1.7-1
+  gawk-3.1.5-2
+  make-3.80-1
+  mkfontdir-1.0.1-1
+  mkfontscale-1.0.1-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://xorg.freedesktop.org/
+
+Canonical download:
+  http://xorg.freedesktop.org/releases/individual/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xorg-font-bh-ttf-1.0.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xorg-font-bh-ttf-1.0.0-X.cygport all
+
+This will create:
+  /usr/src/xorg-font-bh-ttf-1.0.0-X-src.tar.bz2
+  /usr/src/xorg-font-bh-ttf-1.0.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/xorg-font-bh-ttf.sh
+  /usr/share/doc/Cygwin/xorg-font-bh-ttf-1.0.0.README
+  /usr/share/doc/xorg-font-bh-ttf-1.0.0/COPYING
+  /usr/share/doc/xorg-font-bh-ttf-1.0.0/ChangeLog
+  /usr/share/fonts/TTF/luximb.ttf
+  /usr/share/fonts/TTF/luximbi.ttf
+  /usr/share/fonts/TTF/luximr.ttf
+  /usr/share/fonts/TTF/luximri.ttf
+  /usr/share/fonts/TTF/luxirb.ttf
+  /usr/share/fonts/TTF/luxirbi.ttf
+  /usr/share/fonts/TTF/luxirr.ttf
+  /usr/share/fonts/TTF/luxirri.ttf
+  /usr/share/fonts/TTF/luxisb.ttf
+  /usr/share/fonts/TTF/luxisbi.ttf
+  /usr/share/fonts/TTF/luxisr.ttf
+  /usr/share/fonts/TTF/luxisri.ttf
+
+------------------
+
+Port Notes:
+
+----- version 1.0.0-1 -----
+Initial Cygwin release of modular X11R7.0.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
