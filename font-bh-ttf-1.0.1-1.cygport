@@ -1,3 +1,0 @@
-inherit xorg
-
-DOCS=COPYRIGHT.BH
