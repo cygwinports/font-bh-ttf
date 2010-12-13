@@ -1,4 +1,0 @@
-inherit xorg
-
-MAKEOPTS+=" fontconfigdir=/etc/fonts"
-DOCS=COPYRIGHT.BH
